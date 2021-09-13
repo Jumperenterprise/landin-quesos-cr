@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Herr+Von+Muellerhoff&display=swap');
+
+:root {
+    --primary-color: #E5BF4A;
+    --text-color: #ffffff;
+}
+
+.text--color {
+    color: var(--primary-color);
+}
+
+.logo {
+    width: 1.2em;
+}
+
+.title {
+    color: var(--text-color);
+    font-family: 'Herr Von Muellerhoff', cursive;
+    font-size: 3.8em;
+    text-align: center;
+    color: var(--primary-color);
+}
+
+.button__call {
+    color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+    display: inline-block;
+    padding: 11px 20px;
+    text-transform: capitalize;
+    font-size: 16px;
+    text-decoration: none;
+    transition: 0.5s background-color;
+}
+
+.button__call:hover {
+    background-color: var(--primary-color);
+    color: var(--text-color);
+}
+
+.header__container--col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.header__container--social {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container__header {
+    position: relative;
+}
+
+.header__img--property {
+    width: 100%;
+}
+
+.text__block {
+    position: absolute;
+    bottom: 80px;
+    left: 20px;
+    background-color: rgba(0, 0, 0, 0.459);
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.text--property {
+    font-size: 3.5em;
+    font-weight: 200;
+}
+
+.button__secondary {
+    background: var(--primary-color);
+    display: inline-block;
+    padding: 11px 20px;
+    text-transform: capitalize;
+    font-size: 16px;
+    text-decoration: none;
+    color: black;
+    transition: 0.5s background-color;
+}
+
+.button__secondary:hover {
+    background-color: transparent;
+    border: 1px solid var(--primary-color);
+    color: var(--primary-color);
+}
+
+.text__white--property {
+    color: var(--text-color);
+    font-size: 2em;
+    font-weight: 100;
+    text-align: center;    
+}
+
+.text--underline {
+    border-bottom: 1px solid var(--primary-color);
+    margin-bottom: 10px;
+}
+
+.card-title {
+    font-weight: 100;
+}
+
+.price {
+    color: var(--primary-color);
+    font-weight: 200;
+    font-size: 1.4em;
+}
+
+.star {
+    width: 1.7em;
+}
+
+.avatar {
+    width: 4.8em;
+}
+
+.card__text--property {
+    color: var(--text-color);
+}
+
+.avatar__name {
+    color: var(--text-color);
+}
